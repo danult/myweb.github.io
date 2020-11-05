@@ -8,7 +8,7 @@ body{
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Itim', cursive;
     color: darkgrey;
     
 }
@@ -21,12 +21,15 @@ h2{
 h3{
   color: bisque;
   font-size: 29px;
-  font-family: 'Grandstander', cursive;
+  font-family: 'Itim', cursive;
 }
 p{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
   font-size: 29px;
   color: darkgrey;
+}
+.wrap2 p{
+  font-family: 'Dancing Script', cursive;
 }
 .cover{
   width: 100%;
@@ -51,38 +54,111 @@ p{
 .wrap3{
   align-items: center;
   padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  
 }
-.wrap3 h3{
-  margin-left: 1.5rem;
+.card{
+  width: 30rem;
+  height: 17rem;
+  background-color: darkgrey;
 }
-.blogs{
-  display: inline-block;
+.row{
+  padding-top: 0%;
 }
-.box{
-  cursor: pointer;
+.info-menu p{
+  font-size: 1.5rem;
 }
-.blogs .box {
-  position: relative;
-  width: 30%;
+.info-menu{
+  padding-left: 15%;
+}
+.info-menu .fa fa-graduation-cap{
+  background-color: blueviolet;
+}
+.wrap3 h5{
+  color: rgb(114, 65, 5);
+  font-size: 1.6rem;
+  font-family: 'Itim', cursive;
+}
+.wrap3 h1{
+  font-size: 1.6rem;
+ 
+}
+.media{
+  padding-right: 10%;
+}
+.media h3{
+  text-align: left;
+}
+.projects h1{
+  font-size: 1.6rem;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.row .card p{
+  color: rgb(24, 22, 22);
+  font-size: 1.3rem;
+}
+.card-body a .fa{
+  font-size: 2rem;
+  padding-left: 50%;
+  padding-bottom: 2%;
+ color: black;
+}
+.card-body .git-icon{
+  padding-bottom: 1%;
+  padding-right: 1%;
+}
+.col-sm-6 a .fa{
+  font-size: 2rem;
+  padding-left: 70%;
+  padding-bottom: 2%;
+ color: black;
+}
+.col-sm-6{
+  padding-top: 5%;
+}
+.wrap3 .card .card-body .button-row button{
+  height: 15%;
+ 
+}
+.wrap3 .card .card-body .button-row {
+  padding-bottom: 2%;
+ 
+}
+.wrap3 .card{
+  height: 100%;
+ 
+}
+.list-unstyled h1{
+  font-size: 1.6rem;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.media img{
+  width: 40%;
   height: 40%;
-  background: black;
-  margin: 10PX;
-  display: inline-block;
-}
-.box .blog1{
-  position: relative;
-  overflow: hidden;
-}
-.box .blog1 img{
-  width: 100%;
-  height: 70%;
   filter: brightness(100%);
+  padding-left: 10%;
   opacity: 1;
   transition: 0.15s;
 }
-.box:hover img{
+.media p{
+  font-family: 'Karla', sans-serif;
+  font-size: 1.3rem;
+  color: darkgrey;
+}
+.media:hover img{
   transform: scale(1.03);
   filter: brightness(30%);
+}
+.wrap4 h1{
+  font-size: 1.6rem;
+color: darkgray;
+padding-left: 10%;
+padding-top: 3%;
 }
 .social-menu ul{
   position: absolute;
@@ -140,8 +216,8 @@ p{
   .wrap2 p{
     font-size: 1.6rem;
   }
-  .wrap3
-}
+ 
+
 @media only screen and (max-width:768px){
   .cover{
     height: 15rem;
@@ -200,4 +276,61 @@ p{
   .footer p{
     font-size: 1.2rem;
   }
-}
+  .card{
+    width: 20rem;
+    height: 1rem;
+    background-color: darkgrey;
+    font-size: 1rem;
+  }
+  .row{
+    padding-top: 5%;
+  }
+  .info-menu p{
+    font-size: 1rem;
+  }
+  .info-menu{
+    padding-left: 3%;
+    
+  }
+  .wrap3 h3{
+    margin-left: 1.5rem;
+  }
+  .wrap3 h1{
+    font-size: 1.6rem;
+   
+  }
+  .media{
+    padding-right: 10%;
+  }
+  .media h3{
+    text-align: left;
+  }
+  .wrap3 h5{
+    font-size: 1.6rem;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .row .card p{
+    color: rgb(24, 22, 22);
+    font-size: 1rem;
+  }
+  .card-body a .fa{
+    font-size: 2rem;
+    padding-left: 50%;
+    padding-bottom: 2%;
+   color: black;
+  }
+  .col-sm-2 a .fa{
+    font-size: 2rem;
+    padding-left: 70%;
+    padding-bottom: 2%;
+   color: black;
+  }
+  .col-sm-6{
+    padding-top: 3%;
+  }
+  .wrap3 .card .card-body .button-row button{
+    height: 15%;
+   
+  }
